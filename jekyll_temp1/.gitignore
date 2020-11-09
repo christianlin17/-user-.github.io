@@ -1,4 +1,5 @@
- # Ignore everything in this directory
-*
-# Except this file
-!.gitignore
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
