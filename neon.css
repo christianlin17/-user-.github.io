@@ -12,30 +12,43 @@
  */
 
  .vl {
-  border-left: 2px solid #b447f3;
-  height: 5000px;
-  position: fixed;
-  left: 92%;
+  border-right: 2px solid #b447f3;
+  height: 1680px; /*Use this line to adjust the length of the stripe to reach the end of each box*/
+  width: 2000px;
+  position: absolute;
+  right: 6%;
   margin-left: -3px;
   top: 0;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
+
+   /* 
+  Trying to get the lines to glow when hovered  
+  .v1:hover, .v1:focus {
+    color: #db9dff
+    text-decoration: none;  }
+  .nav-link.disabled {
+    color: #b447f3; 
+
+    */
+
 
 .v2 {
-  border-left: 2px solid var(--secondary);
-  height: 5000px;
-  position: fixed;
-  left: 94%;
+  border-right: 2px solid var(--secondary);
+  height: 2300px;
+  width: 2000px;
+  position: absolute;
+  right: 4%;
   margin-left: -3px;
   top: 0;
   border-radius: 3px;
 }
 
 .v3 {
-  border-left: 2px solid var(--light);
-  height: 5000px;
-  position: fixed;
-  left: 96%;
+  border-right: 2px solid var(--light);
+  height: 3200px;
+  width: 2000px;
+  position: absolute;
+  right: 2%;
   margin-left: -3px;
   top: 0;
   border-radius: 3px;
