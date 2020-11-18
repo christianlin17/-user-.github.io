@@ -10,6 +10,37 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .vl {
+  border-left: 2px solid #b447f3;
+  height: 5000px;
+  position: fixed;
+  left: 92%;
+  margin-left: -3px;
+  top: 0;
+  border-radius: 3px;
+}
+
+.v2 {
+  border-left: 2px solid var(--secondary);
+  height: 5000px;
+  position: fixed;
+  left: 94%;
+  margin-left: -3px;
+  top: 0;
+  border-radius: 3px;
+}
+
+.v3 {
+  border-left: 2px solid var(--light);
+  height: 5000px;
+  position: fixed;
+  left: 96%;
+  margin-left: -3px;
+  top: 0;
+  border-radius: 3px;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
