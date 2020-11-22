@@ -11,18 +11,22 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-.vl {
+
+
+.v1 {
   background-color: #a23fdbd2;
-  height: 1680px;
+  height: 1580px;
   width: 3px;
   position: absolute;
   right: 6%;
   margin-left: -3px;
   top: 0;
-  border-radius: 3px; 
+  border-radius: 3px;
   transition: .25s; }
-  .v1:hover, .v1:focus {
-    box-shadow: 0px 0px 2.5px 2.5px #a053cce7; }
+  .v1:hover, .v1:focus  {
+    box-shadow: 0px 0px 2.5px 2.5px #a053cce7;
+  }
+
 
 .v2 {
   background-color:#39eb39c0;
