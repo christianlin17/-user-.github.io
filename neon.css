@@ -30,7 +30,7 @@
 }
 
 #v1 {
-  animation: glow1 1000ms 2;
+  animation: glow1 5000ms 1;
   background-color: #a23fdbd2;
   height: 3360px;
   width: 3px;
@@ -46,7 +46,7 @@
 
 
 #v2 {
-  animation: glow2 1000ms 2;
+  animation: glow2 5000ms 1;
   background-color:#39eb39c0;
   height: 3360px;
   width: 3px;
@@ -60,7 +60,7 @@
     box-shadow: 0px 0px 2.5px 2.5px #40f740; }
 
 #v3 {
-  animation: glow3 1000ms 2;
+  animation: glow3 5000ms 1;
   border-right: 2px solid var(--light);
   background-color: rgba(255, 255, 255, 0.726);
   height: 3360px;
